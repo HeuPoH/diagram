@@ -1,0 +1,29 @@
+.context-menu {
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin-block: 0;
+}
+
+.context-menu-item {
+  padding: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.context-menu-item-with-icon {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.context-menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+.context-menu-icon {
+  width: 20px;
+  height: 20px;
+}

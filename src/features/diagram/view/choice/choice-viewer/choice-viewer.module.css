@@ -1,0 +1,45 @@
+.choice-viewer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  padding: 8px 16px;
+}
+
+.header {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.choice-type-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.incoming {
+    background-color: #e9f5ff;
+    color: #3182ce;
+}
+
+.outgoing {
+    background-color: #e6f7ee;
+    color: #38a169;
+}
+
+.choice-title {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.choice-description {
+  color: #4b5563;
+}
+
+.choice-destination {
+  padding-left: 10px;
+  color: #718096;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

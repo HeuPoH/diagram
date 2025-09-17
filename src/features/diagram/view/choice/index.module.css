@@ -1,0 +1,12 @@
+.choice-editor {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  overflow: hidden;
+}
+
+.choice-editor-footer {
+  display: flex;
+  column-gap: 8px;
+  justify-content: end;
+}

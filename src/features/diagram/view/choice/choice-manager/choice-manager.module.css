@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  border: 1px solid #e1e5e9;
+  border-radius: 12px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+}
+
+.viewer {
+  flex: 1;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  align-items: end;
+}
+
+.editor {
+  transition: max-height 0.3s ease;
+}
+
+.editor-active {
+  max-height: 500px;
+}
+
+.editor-inactive {
+  max-height: 0;
+}
+
+.btn-edit {
+  background-color: #e9f5ff !important;
+  color: #3182ce !important;
+  border: 1px solid #bee3f8 !important;
+}
+
+.btn-edit:hover {
+  background-color: #d1ebff !important;
+}
+
+.btn-edit:active {
+  background-color: #b8e1ff !important;
+}
+
+.btn-delete {
+    background-color: #f8f9fa !important;
+    color: #e53e3e !important;
+    border: 1px solid #e2e8f0;
+}
+
+.btn-delete:hover {
+    background-color: #fff5f5 !important;
+    border-color: #e53e3e !important;
+}
+
+.btn-delete:active {
+    background-color: #fed7d7 !important;
+}

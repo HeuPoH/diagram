@@ -1,0 +1,21 @@
+.modal {
+  height: 100%;
+  max-width: 800px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.scene-editor {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.choices-editor {
+  display: flex;
+  flex-direction: column;
+}

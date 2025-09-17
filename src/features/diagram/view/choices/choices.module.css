@@ -1,0 +1,22 @@
+.choices-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.choices-item {
+  display: flex;
+}
+
+.choice-item-body {
+  flex: 1;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: transparent;
+  column-gap: 4px;
+  padding: 4px 0px;
+}
